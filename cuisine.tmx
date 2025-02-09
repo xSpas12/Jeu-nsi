@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="3">
+ <tileset firstgid="1" source="tileset/image (2).tsx"/>
+ <tileset firstgid="73" source="tileset/New Piskel.tsx"/>
+ <tileset firstgid="16977" source="tileset/4g tileset_interieur.tsx"/>
+ <layer id="1" name="Calque de Tuiles 1" width="8" height="8">
+  <data encoding="csv">
+17212,17212,17212,17212,17212,17212,17212,17212,
+70,70,70,70,70,70,70,70,
+70,70,70,70,70,70,70,70,
+70,70,70,70,70,70,70,70,
+70,70,70,70,70,70,70,70,
+70,70,70,70,70,70,70,70,
+70,70,70,70,70,70,70,70,
+70,70,70,70,70,70,70,70
+</data>
+ </layer>
+ <layer id="3" name="MUR" width="8" height="8">
+  <data encoding="csv">
+92,92,92,92,92,92,92,92,
+109,109,109,109,109,109,109,109,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="OBJET DECO" width="8" height="8">
+  <data encoding="csv">
+0,0,0,55,54,44,0,0,
+0,0,0,56,53,43,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,47,46,0,
+0,34,33,0,0,48,45,0,
+0,31,32,0,0,0,0,0,
+0,0,0,0,0,0,0,17153,
+0,0,0,0,0,0,0,17161
+</data>
+ </layer>
+ <group id="4" name="Object">
+  <objectgroup id="5" name="interface">
+   <object id="1" name="switch map0 0" x="228" y="214.182" width="28" height="42"/>
+   <object id="2" name="spawn map0 0" x="228" y="234.545">
+    <point/>
+   </object>
+  </objectgroup>
+ </group>
+</map>
